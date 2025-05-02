@@ -77,7 +77,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       navigatorKey: navigatorKey,
-      title: 'Health App',
+      debugShowCheckedModeBanner: false,
       initialRoute: '/', // Set the initial route
       routes: {
         '/': (context) => const HomePage(), // Use HomePage as the root route
